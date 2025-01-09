@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunAndGames</title> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Playwrite+AU+QLD+Guides&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">  
+     <link rel="stylesheet" href="Css/home.css">
+     
+
+    <link rel="stylesheet" href="Css/fun.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (!sessionStorage.getItem("isLoggedIn")) {
+                // alert("You need to log in to access this page.");
+                window.location.href = "logIn.html"; // Redirect to login page
+            }
+        });
+    </script>
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img class="logo" src="images/LogoImage.png" alt="logo" >
+
+            <ul>
+               
+                <li id="logOut">LogOut</li>
+            </ul>
+       
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listen.html">Listen and Watch</a></li>
+                <li><a href="Read and write.html">Read and Write</a></li>
+                <li><a href="speak.html">Speak and Sound</a></li>
+                <li><a href="fun.html">Fun and Games</a></li>
+                
+            </ul>
+         </nav>
+        <main>
+             <section id="ReadSection">
+                <div>
+                    <h2>Fun and games</h2>
+                   <p> Play games and practise your speaking with our fun tongue twisters.</p>
+                </div>
+           </div>
+           <section class="PargraphSection">
+            <p>Do you like learning English and having fun? In this section you can play games and practise your speaking with our fun tongue twisters. There are funny jokes in English to learn and tell your friends. You can also post comments!</p>
+            
+           </section>
+           <div class="sections-container">
+           <section id="MagazineSEC">
+            <div class="MagazineSection">
+                <img src="images/aVn3NGHlKI-removebg-preview.png"alt="Image Not Found"class="Maimg">
+                <div class="Magazine"></div>
+            </div>
+           </section>
+           <section class="MagazinePargraph">
+            <a href="games.html">Games</a>
+            <p>Do you like playing games in English? We have fun games for you to play. Read the instructions and have fun playing and practising English. You can also post comments!</p>
+
+           </section>
+        </div>
+
+        <div class="sections-container">
+            <section id="Yourturn">
+             <div class="YourturnSection">
+                 <img src="images/little-boy-little-girl-laugh-together_97632-3815-removebg-preview.png"alt="Image Not Found"class="Yourturnimg">
+                 <div class="Yourturn"></div>
+             </div>
+            </section>
+            <section class="YourturnPargraph">
+             <a href="Yourturn.html">Jokes </a>
+             <p>Do you like telling jokes in your language? Do you know any jokes in English? In this section you can read lots of really funny jokes in English. Do they make you laugh? Learn them and tell your friends. You can also post comments!</p>
+            </section>
+         </div>
+           </main>
+           
+           <footer>
+            <div class="list">
+                <ul>
+                    <li><a href="listen.html"><span>Listen and watch</span></a></li>
+                    <li><a href="songs.html">Songs</a></li>
+                    <li><a href="shortStories.html">Short stories</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="Read and write.html"><span>Read and write</span></a></li>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="#">Your turn</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="speak.html"><span>Speak and Sound</span> </a></li>
+                    <li><a href="sound.html">Sounds</a></li>
+                    <li><a href="#">Speak</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="fun.html"><span>Fun and Games</span></a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="#">Jokes</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><span>Follow Us</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+          
+                </ul>
+            </div>
+            <p class="copyright">&copy; 2025 <span>KidsEn</span> All Right Reserved</p>
+          </footer>
+        <script src="Script/Navigation.js" defer></script>
+       <script src="Script/logOut.js"></script>
+
+    
+</body>
+</html>

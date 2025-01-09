@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family game</title>
+    <link rel="stylesheet" href="Css/family.css">
+    <!--  -->
+</head>
+<body>
+    <div class="navbar">
+        <a href="Animals.html">Animals</a>
+        <a href="natural.html">Natural</a>
+        <a href="family.html">Family</a>
+    </div>
+
+    <div class="header">Match the Word with the Picture</div>
+    <div class="main">
+        <div class="word" id="word">Mother</div>
+        <div class="continer">
+            <div class="line">
+                <img src="gameImages/mother.png" alt="Mother" data-name="Mother" class="draggable" />
+                <img src="gameImages/father.png" alt="Father" data-name="Father" class="draggable" />
+                <img src="gameImages/brother.png" alt="Brother" data-name="Brother" class="draggable" />
+                <img src="gameImages/sister.png" alt="Sister" data-name="Sister" class="draggable" />
+            </div>
+            <div class="line">
+                <img src="gameImages/grandfather.png" alt="Grandfather" data-name="Grandfather" class="draggable" />
+                <img src="gameImages/grandmother.png" alt="Grandmother" data-name="Grandmother" class="draggable" />
+                <img src="gameImages/uncle.png" alt="Uncle" data-name="Uncle" class="draggable" />
+                <img src="gameImages/aunt.png" alt="Aunt" data-name="Aunt" class="draggable" />
+                
+            </div>
+        </div>
+        <div id="feedback"></div>
+    </div>
+    <audio id="seccees_audio" src="good.mp3"></audio>
+    <audio id="incorrect_audio" src="oops.mp3"></audio>
+   <script src="Script/animalGame.js"></script>
+   <script src="Script/family.js"></script>
+</body>
+</html>
