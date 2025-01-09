@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days of the Week</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Playwrite+AU+QLD+Guides&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/help.css">
+
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/Game.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- -------------------------------------Header----------------------------------- -->
+    <div class="container">
+    <header>
+        <img class="logo" src="images/LogoImage.png" alt="logo" >
+
+   <ul>
+           <li id="logOut">LogOut</li>
+   </ul>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listen.html">Listen and Watch</a></li>
+            <li><a href="Read and write.html">Read and Write</a></li>
+            <li><a href="speak.html">Speak and Sound</a></li>
+            <li><a href="fun.html">Fun and Games</a></li>
+
+        </ul>
+    </nav>
+    <!-- -------------------------------------Header----------------------------------- -->
+          <!-- ------------------------------------Sounds Section--------------------------- -->
+          <main class="sound-page">
+            <section class="links">
+                <a href="speak.html"><span>Speak and Sound</span></a> <span> &gt;</span>
+                <a href="sound.html"><span>Sounds</span></a><span> &gt;</span><span>Days of the Week</span>
+      
+            </section>
+         <!-- ------------------------------------Sounds Section header--------------------------- -->
+    
+            <div class="sound-header">
+            <h2>Days of the Week </h2>
+            <p>Sing and dance to the Days of the Week song. Can you clap, jump, and spin for each day?
+            </p>
+        </div>
+         <!-- ------------------------------------Sounds Section header--------------------------- -->
+          <section class="button-up-page">
+            <p>Instructions group<p>
+            <p>Help</p>
+            <ul>
+                <li>Listen, watch, dance and sing with Sam and Pam.</li>
+                <li>Play a vocabulary game to practise the words from the song.</li>
+                <li>Print out the words, activity sheet and flashcards for the song.</li>
+            </ul>
+          </section>
+          <section class="button-up-video">
+            <video controls  poster="images/LogoImage.png" width=" 62%" height="450px">
+                <source src="Days of the Week Song .mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+
+
+            <section class="game">
+                <div class="score">Score <span id="counter">0</span></div>
+                <div class="continar">
+                   <div class="row" >
+                    <img src="images/questionMark.jpg" id="img1" data-id="14"height='170' style="width: 200px;" >
+                    <img src="images/questionMark.jpg" id="img2" data-id="17" height='170' style="width: 200px;">
+                </div>
+                <div class="row">
+                    <img src="images/questionMark.jpg" id="img3" data-id="15" height='170' style="width: 200px;">
+                    <img src="images/questionMark.jpg" id="img4" data-id="16"height='170' style="width: 200px;" >
+                </div>
+                <div class="row">
+                    <img src="images/questionMark.jpg" id="img5" data-id="16" height='170' style="width: 200px;">
+                    <img src="images/questionMark.jpg" id="img6" data-id="15" height='170' style="width: 200px;">
+                </div>
+                <div class="row">
+                    <img src="images/questionMark.jpg" id="img7" data-id="17"height='170' style="width: 200px;" >
+                    <img src="images/questionMark.jpg" id="img8" data-id="14" height='170' style="width: 200px;">
+                </div>
+            </div>
+                <div id="try-again-btn"><i class="fa-solid fa-repeat"></i> Try again</div>
+                <div id="congrats">
+                    <div class="content">
+                        <span class="text-part-one">Well done!</span>
+                        <span class="text"> scored <span id="correct-counter"></span> out of <span id="total-counter"></span>
+                        </span>
+               </div>
+                    <div class="button">
+                        <div id="try-again-btn-congrats">Try again</div>
+                        <div id="close-btn">Close</div>
+                    </div>
+            </div>
+            <div id="popupGame"></div>
+               </section>
+
+
+
+          </section>
+          <section class="button-up-page">
+            <p>Documents Group<p>
+            <p>Documents</p>
+            <ul>
+                <li><a href=" "><i class="fa-solid fa-note-sticky"></i>Print the words to the song.</a><span>178.12 KB</span></li>
+                <li><a href=" "><i class="fa-solid fa-note-sticky"></i>Print an activity for the song.</a><span>342.33 KB</span></li>
+                <li><a href=" "><i class="fa-solid fa-note-sticky"></i>Print the answers.</a><span>299.58 KB</span></li>
+                <li><a href=" " ><i class="fa-solid fa-note-sticky"></i>flashcards for the song.</a><span>652.47 KB</span></li>
+            </ul>
+          </section>
+          <section class="button-up-page discussion-group">
+            <p>Discussion Group<p>
+            <p>Discussion</p>
+            <ul>
+                <li>Have you ever sung the Days of the Week song? What actions could you pretend to do for each day? Write a comment and tell us!</li>
+            </ul>
+          </section>
+              
+          <div>
+            <span class="star" onclick="rate(1)">★</span>
+            <span class="star" onclick="rate(2)">★</span>
+            <span class="star" onclick="rate(3)">★</span>
+            <span class="star" onclick="rate(4)">★</span>
+            <span class="star" onclick="rate(5)">★</span>
+            </div>
+            <p id="rating-value">Your Rating: 0</p>
+            <section class="button-up-page comments">
+                <div id="commentsSection">
+                    <form id="commentForm">
+                        <textarea id="commentText" placeholder="Write your comment..." required></textarea>
+                        <button type="button" id="addComment">Add Comment</button>
+                    </form>
+                </div>
+            </section>
+                <div id="commentsList"></div>
+         
+         <nav class="nav-help">
+            <ul>
+                <li>Help and Support</li>
+                <li><i class="fa-solid fa-check"></i><a href="#">Support for parent</a></li>
+                <li><i class="fa-solid fa-check"></i><a href="#">Getting started for kids</a></li>
+                <li><i class="fa-solid fa-check"></i><a href="#">Houses rules for kids</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-cours">
+            <ul>
+                <li>Help and Support</li>
+                <li><i class="fa-solid fa-check"></i><a href="#">Support for parent</a></li>
+                <li><i class="fa-solid fa-check"></i><a href="#">Getting started for kids</a></li>
+            </ul>
+        </nav>
+          </main>
+          </div>
+           <!-- -----------------------------------------footer------------------------------------- -->
+
+<footer>
+  <div class="list">
+      <ul>
+          <li><a href="listen.html"><span>Listen and watch</span></a></li>
+          <li><a href="songs.html">Songs</a></li>
+          <li><a href="shortStories.html">Short stories</a></li>
+      </ul>
+  </div>
+  <div class="list">
+      <ul>
+          <li><a href="Read and write.html"><span>Read and write</span></a></li>
+          <li><a href="magazine.html">Magazine</a></li>
+          <li><a href="#">Your turn</a></li>
+      </ul>
+  </div>
+  <div class="list">
+      <ul>
+          <li><a href="speak.html"><span>Speak and Sound</span> </a></li>
+          <li><a href="sound.html">Sounds</a></li>
+          <li><a href="#">Speak</a></li>
+      </ul>
+  </div>
+  <div class="list">
+      <ul>
+          <li><a href="fun.html"><span>Fun and Games</span></a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="#">Jokes</a></li>
+      </ul>
+  </div>
+  <div class="list">
+      <ul>
+          <li><a href="#"><span>Follow Us</span></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+          <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+
+      </ul>
+  </div>
+  <p class="copyright">&copy; 2025 <span>KidsEn</span> All Right Reserved</p>
+</footer>
+   <!-- -----------------------------------------footer------------------------------------- -->
+
+   <script src="Script/Game.js"></script>
+   <script src="Script/comment.js"></script>
+   <script src="Script/logOut.js"></script>
+
+   </body>
+          </html>
