@@ -1,0 +1,2 @@
+var naturalNames = ['Sea', 'Mountain', 'River', 'Forest', 'Desert', 'Waterfall', 'Lake', 'Volcano', 'Cave', 'Island', 'Glacier', 'Beach', 'Cliff', 'Valley', 'Meadow'];
+guessThePhoto('Sea',naturalNames)
