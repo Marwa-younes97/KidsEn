@@ -1,14 +1,18 @@
 const quizzes = {
-    quiz1: {
-        correctAnswers: {
+    quiz1: 
+    {
+        correctAnswers: 
+        {
             q1: "3", 
             q2: "2", 
             q3: "1", 
             q4: "3",
             q5: "1"  
         },
+        
         totalQuestions: 5
     },
+    
     quiz2: {
         correctAnswers: {
             q1: "1", 
@@ -17,30 +21,39 @@ const quizzes = {
             q4: "3", 
             q5: "2" 
         },
+        
         totalQuestions: 5
     },
+    
     quiz3: {
-        correctAnswers: {
+        correctAnswers:
+            {
             q1: "1", 
             q2: "1", 
             q3: "2", 
             q4: "2", 
             q5: "3"  
         },
+        
         totalQuestions: 5
     },
 
-    quiz4: {
-        correctAnswers: {
+    quiz4: 
+    {
+        correctAnswers:
+            {
             q1: "3", 
             q2: "1", 
             q3: "1", 
             q4: "2", 
             q5: "3" 
         },
+        
         totalQuestions: 5
     },
-    quiz5: {
+    
+    quiz5: 
+    {
         correctAnswers: {
             q1: "1", 
             q2: "2", 
@@ -356,7 +369,7 @@ text.style.alignItems="center"
 text.style.position="fixed"
 text.style.border=" 2px dashed white"
 text.style.top="375px"
-text.style.left="990px"
+text.style.left="1050px"
 text.style.paddingTop="22px"
 
 
