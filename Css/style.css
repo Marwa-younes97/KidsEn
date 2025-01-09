@@ -108,10 +108,13 @@ body {
     margin-top: var(--mainMargin);
     padding-left: 40px;
     padding-right: 40px;
+        font-weight: bold;
+
 }
 /* /------------------------------------Sounds Section header---------------------------/ */
 
 main a {
+    margin-top: 30px;
     display: inline-block;
     font-size: 18px;
     color: #000;
@@ -207,7 +210,7 @@ main a:hover {
 /* ---------------------------------------sound page----------------------------------- *//* Teacher */
 .Teacher{
     position:fixed;
-    width: 400px;
+    width: 350px;
     /* top: 1000px;
     left: 1120px; */
     top: 350px;
