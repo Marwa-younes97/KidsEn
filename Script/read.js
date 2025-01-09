@@ -374,7 +374,7 @@ text.style.paddingTop="22px"
 
 
 window.onscroll=function(){
-    if(scrollY>600&&scrollY<4100){
+    if(scrollY>700&&scrollY<4100){
         teacher.style.display='block';
         text.style.display='block';
         teacher.style.animation='imageDisplay 1s'
