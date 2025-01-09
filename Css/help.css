@@ -1,0 +1,69 @@
+.sound-page nav {
+    background-color: white;
+    position: absolute;
+    /* position: fixed; */
+    border: 5px solid #6b5221;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    top: 280px;
+    left: 1040px;
+    font-size: 15px;
+   
+}
+.sound-page nav ul {
+    list-style: none;
+    display: block;
+
+}
+.sound-page nav ul li {
+    background-color: transparent;
+
+}
+.sound-page nav .fa-check {
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #053e64;
+    font-weight: bolder;
+} 
+/* ---------------------------- */
+.sound-page nav ul li a .one{
+    color: #6ab5e7;
+}
+.sound-page nav ul li a .two{
+    color: #6ab5e7;
+}
+
+
+.sound-page .sound-nav .nav-help ul li:first-child
+,.sound-page .sound-nav .nav-cours ul li:first-child {
+    font-size: 20px;
+}
+.sound-page .sound-nav .nav-help  {
+    position: absolute;
+    top: 500px;
+
+}
+/* .sound-page .sound-nav .nav-cours {
+    top: 800px;
+} */
+.sound-page .sound-nav .nav-help 
+,.sound-page .sound-nav .nav-cours {
+    border-top-left-radius: 50px;
+    border: 5px solid #6b522180;
+    
+}
+
+.nav-help {
+    height: 230px;
+    margin-bottom: 80px;
+    margin-top: 250px;
+
+}
+.nav-cours {
+    height: 200px;
+    margin-top: 550px;
+
+}

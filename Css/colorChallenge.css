@@ -1,0 +1,53 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 240, 240);
+}
+main .color-game{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    /* background-color: aliceblue; */
+}
+.color-game .container{
+    text-align: center;
+    margin:auto;
+    /* margin-top: 20px; */
+}
+.container h2{
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(46, 46, 46);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ h2+p{
+    padding-top: 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container #score{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(29, 155, 197);
+
+}
+.container #time-left{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(250, 83, 6);
+    padding-bottom: 20px;
+
+}
+.color-game .colors{
+    display: flex;
+    justify-content: center;
+}
+.colors .color-palette{
+    width: 120px;
+    height: 120px;
+    background-color: Aqua;
+    margin: 10px;
+    border-radius: 10px;
+}

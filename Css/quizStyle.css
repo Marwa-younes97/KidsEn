@@ -1,0 +1,76 @@
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 57%;
+    text-align: center;
+}
+#quiz,#quizForm{
+    background-color: #fff;
+    padding: 20px 0;
+    width:85%;
+    /* margin-top: 20px; */
+    margin: 50px auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.question {
+    margin: 30px 0;
+    margin-left: 0 ;
+}
+.question p{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px   ;
+    color: #ff4500;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3899da;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+button:hover {
+    background-color: #3285bd;
+}
+
+#submitBtn {
+    margin-top: 20px;
+    background-color: #ff4500;
+}
+
+#submitBtn:hover {
+    background-color: #e23f03;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Selected button color */
+button.selected {
+    background-color: #fff;
+    color: #3285bd;
+    border:1px solid #3285bd;
+    font-weight: bold; /* Blue color for selected button */
+}
+label {
+    display: block;
+    margin:10px 0;
+    margin-left: 100px ;
+    text-align: left;
+}

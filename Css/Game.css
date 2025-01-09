@@ -1,0 +1,137 @@
+.game {
+
+    background-image: linear-gradient(to right bottom, #3899da, #54a4da,#79b5dd,white);
+    width: 75%;
+    margin-left:0px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 500px;
+    
+    position: relative;
+    height: 950px;
+    
+    
+     }
+     .game .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     .game img {
+     
+        width: 180px;
+        margin: 4px;
+        border-radius: 10px;
+        display: inline-block;
+        border: 2px dashed orangered;
+     }
+     .game img:hover {
+        cursor: pointer;
+        border: 2px solid black;
+     }
+    .game  .fixed {
+        border: 5px solid green; 
+        pointer-events: none; 
+    }
+    .score {
+        font-size: 40px;
+        background-color: orangered;
+        width: 180px;
+        padding: 10px;
+        color: white;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0 20px 20px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 8px #777676;
+        margin-left: 24%;
+    }
+    .score #counter {
+        font-size: 80px;
+        padding-left: 10px;
+    }
+    #try-again-btn, #close-btn,
+    #try-again-btn-congrats{
+        font-size: 18px;
+        padding: 10px;
+        width: fit-content;
+        background-color: rgb(11, 182, 62);
+        color: white;
+        border-radius: 10px;
+        margin-left: 24%;
+        margin-top: 20px;
+        box-shadow: 2px 2px 6px #6e6e6e;
+    
+        display: inline-block;
+    
+    }
+    #try-again-btn:hover,
+    #close-btn:hover,
+    #try-again-btn-congrats:hover {
+        cursor: pointer;
+        background-color: rgb(7, 146, 49);
+        text-decoration: underline;
+    }
+     .game #congrats {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 1348px;
+        height: 2000px;
+        background-size: cover;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: absolute;
+    
+        top: -180px;
+        left: -40px;
+        z-index: 20;
+    
+        display: none;
+        
+    } 
+
+    .game #congrats .content {
+        background-image: linear-gradient(rgb(250, 80, 18) ,white);
+        border: #ffffff solid 5px;
+        width: 500px;
+        height: 290px;
+        border-radius: 10px;
+        color: rgb(95, 38, 5);
+        padding: 20px;
+        text-align: center;
+        width: 600px;
+        text-shadow:1px 2px 2px#de4a00;
+        margin-right: 400px;
+        height: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 280px;
+        margin-top: 340px;
+        
+    }
+    .game #congrats .text-part-one {
+      display: block;
+      font-size: 20px;
+    
+    }
+    .game #congrats .text {
+      font-size: 40px;
+        
+    }
+    .game #congrats .button {
+        width: 80%;
+        margin-top: -100px;
+        margin-left: 220px;
+        
+        
+    }
+    .game #congrats .button #close-btn {
+        margin-left: 20px;
+    }   

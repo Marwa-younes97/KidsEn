@@ -1,0 +1,160 @@
+
+*{
+    font-family: "Fredoka", serif;
+}
+
+
+main #ReadSection {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 500px;
+    background-image: url(../images/listenBackground.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border:2px solid orangered;
+     border-radius: 10px;
+   /* background-size: 90% ; */
+    margin-left: 150px;
+    position: relative;
+}
+main #ReadSection div{
+    /* border: 1px solid black; */
+    background-color: #f5d678e1;
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left:30px;
+    border-radius:0 35px 0 0;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    box-shadow: -30px 30px 15px #f5c15c;
+}
+main #ReadSection div h2 , 
+#ReadSection div p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+   
+}
+main #ReadSection div input ,.section-box .box .text input{
+    margin-top: 20px;
+ border: none;
+    margin-left: 85px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 50%;
+    padding: 5px ;
+    background-color: #6ab5e7;
+    color: white;
+}
+
+
+.PargraphSection{
+    text-align: center;
+    margin:50px 400px;
+    font-size: 25px;
+    display: flex;
+    color: rgb(216, 48, 1);
+}
+.sections-container {
+    display: flex; /* ترتيب الأقسام أفقيًا */
+    justify-content: space-between; /* توزيع المسافة بينهما */
+    align-items: flex-start; /* محاذاة العناصر من الأعلى */
+    gap: 200px; /* مسافة بين القسمين */
+    margin: 20px auto; /* حواف الحاوية */
+    width: 90%; /* عرض الحاوية الكلي */
+}
+
+#MagazineSEC {
+    flex: 1;
+    width: 27.7%;
+    margin: 30px;
+    border-radius: 100px 20px;
+    background-color: #6ab5e7;
+}
+.Maimg{
+    
+    width:240px;
+    padding:10px 140px 5px;
+}
+.Magazine{
+  
+    border-radius: 100px 20px;
+    background-color: #de4a00;
+    padding-bottom: 170px;
+    order: 1;
+}
+.MagazinePargraph{
+    flex: 1;
+    text-align: left;
+    color: rgb(216, 48, 1);
+    width: 400px;
+    margin-top: 150px;
+    font-size: larger;
+
+}
+.MagazinePargraph a{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 800;
+
+
+}
+.MagazinePargraph p{
+    font-size: 24px;
+    /* font-weight: 700; */
+    padding-top: 10px;
+    
+
+}
+
+#Yourturn {
+    order: 2;
+    flex: 1;
+    width: 27.7%;
+    margin: 30px;
+    border-radius: 100px 20px;
+    background-color: #6ab5e7;
+}
+.Yourturnimg{
+    
+    width: 320px;
+    padding:10px 110px 5px;
+}
+.Yourturn{
+  
+    border-radius: 100px 20px;
+    background-color: #de4a00;
+    padding-bottom: 170px;
+}
+.YourturnPargraph{
+    flex: 1;
+    text-align: left;
+    color: rgb(216, 48, 1);
+    width: 400px;
+    margin-top: 150px;
+    font-size: larger;
+
+}
+.YourturnPargraph a{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 800;
+
+
+}
+.YourturnPargraph p{
+    font-size: 24px;
+    /* font-weight: 700; */
+    padding-top: 10px;
+
+}
+
+.Yourturnimgpractise{
+
+    width:350px;
+    padding:10px 160px 5px;
+}

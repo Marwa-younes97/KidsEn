@@ -1,0 +1,934 @@
+:root {
+    --mainFont:20px;
+    --lineHeight:30px;
+    --mainMargin:40px;
+    --mainColor:#ffffff;
+}
+body {
+    background-color: var(--mainColor);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* /------------------------------Header----------------------------------- */ */
+
+/* ---------------------------------------section tow----------------------------------- */
+.section-tow {
+   margin-top: var(--mainMargin);
+   font-size: var(--mainFont);
+   background-color: #FADA7A;
+   padding: 40px 20%;
+   line-height: var(--lineHeight);
+   margin-bottom: var(--mainMargin);
+}
+/* ---------------------------------------section two----------------------------------- */
+
+/* ---------------------------------------section three----------------------------------- */
+
+
+/* .container {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: var(--mainFont);
+    margin-bottom: calc(var(--mainMargin) + 50px);
+} */
+.container .card-left,
+.container .card-right {
+    /* background-color: #eee; */
+    display: flex;
+    height: 350px;
+    margin-bottom: var(--mainMargin);
+
+}
+.card-left img {
+    width: 320px;
+    border-bottom-left-radius: 50px;
+    box-shadow: -4px 4px 3px #f5c15c;
+    /* border: 2px solid #f5c15c; */
+}
+.card-left .content {
+    width: 700px;
+    height: 300px;
+    background-color: var(--mainColor);
+    /* background-color: #6ab5e7; */
+    padding: 40px;
+    border-radius: 50px  ;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.card-left .content h3,
+.card-right .content h3 {
+    margin: 20px 0;
+}
+.card-left .content .button,
+.card-right .content .button{
+    margin-top: 20px;
+    border: none;
+       /* margin-left: 85px; */
+       border-radius: 20px;
+       display: inline-block;
+       width: 200px;
+       padding: 5px ;
+       background-color: #6ab5e7;
+       color: white;
+       font-size: 18px;
+
+}
+.card-left .content .button:hover,
+.card-right .content .button:hover {
+    background-color: white;
+    color: #6ab5e7;
+    text-decoration: underline;
+}
+.card-right img {
+    width: 320px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 4px 4px 3px #f5c15c;
+}
+.card-right .content {
+    width: 700px;
+    height: 300px;
+    background-color: var(--mainColor);
+    /* background-color: #6ab5e7; */
+    padding: 40px;
+    border-radius: 50px  ;
+    margin-top: 80px;
+    margin-right: -50px;
+    z-index: 99;
+}
+/* ---------------------------------------section three----------------------------------- */
+
+/* ---------------------------------------spound page----------------------------------- */
+/* ---------------------------------------Sounds Section-------------------------------- */
+
+.sound-page {
+    background-color: var(--mainColor);
+    margin-top: var(--mainMargin);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* /------------------------------------Sounds Section header---------------------------/ */
+
+main a {
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    position:relative;
+    transition: all ease .2s ;
+} 
+main .link {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+main .text {
+    display: inline-block;
+    font-size: 18px;
+
+}
+main .space {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main a:hover {
+    color: orangered;
+}
+
+.sound-header h2 {
+    font-size: 42px;
+    color: #ff4500;
+    margin-top: 80px;
+    margin-left: 0 px;
+}
+.sound-header p {
+    width: 75%;
+    font-size: var(--mainFont);
+    line-height: var(--lineHeight);
+    margin-top: 30px;
+}
+/* /------------------------------------Sounds Section header---------------------------/ */
+/* /------------------------------------Sounds Section content---------------------------/ */
+
+.sound-page .card {
+    /* background-color: #9a9da0; */
+    margin-top: var(--mainMargin);
+    margin-bottom: 80px;
+    height: 300px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sound-page .card img {
+    width: 350px;
+    border-radius: 0 0 50px 50px;
+    display:inline-block;
+
+}
+.sound-page .card .content {
+    background-color: var(--mainColor);
+    width: 630px;
+    font-size: var(--mainFont);
+    display: inline-block;
+    padding: 30px 30px 50px 30px;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-top: -190px;
+    
+
+}
+.sound-page .card .content .btn{
+    font-size: 35px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.sound-page .card .content .btn,
+#comment-btn {
+    background-color: transparent;
+    border: none;
+    display: block;
+}
+#comment-btn {
+    font-size: var(--mainFont);
+    padding-top: 20px;
+}
+
+.sound-page .card .content .btn:hover,
+#comment-btn:hover {
+    text-decoration: underline;
+}
+/* /------------------------------------Sounds Section content---------------------------/ */
+/* -----------------------------------nav--------------------------------------------- */
+
+
+/* -----------------------------------nav--------------------------------------------- */
+
+
+/* ---------------------------------------sound page----------------------------------- *//* Teacher */
+.Teacher{
+    position:fixed;
+    width: 300px;
+    /* top: 1000px;
+    left: 1120px; */
+    top: 350px;
+    left: 1000px;
+    display: none;
+    
+
+
+}
+.Hide {
+    display:block;
+} 
+/* .Teacher::after{
+    content: 'Go On';
+    font-size: 100px;
+    z-index: 100;
+    position: absolute;
+    top: 350px;
+} */
+#text{
+     animation-name: TextMove;
+     animation-duration: 1s;
+     animation-iteration-count:infinite;
+     animation-direction: alternate-reverse;
+
+}
+@keyframes TextMove{
+    form {
+        transform:translateY(0PX) ;
+    }
+    to{
+        transform:translateY(-10PX) ;
+
+    }
+}
+@keyframes imageDisplay{
+      from{
+        transform: translatex(100px);
+     }
+  to{
+       transform: translatex(0px);
+
+    }
+
+}
+@keyframes imageHidden{
+    from{
+      transform: translatex(0px);
+   }
+  to{
+     transform: translatex(100px);
+
+  }
+
+}
+
+/* ---------------------------------------sound page----------------------------------- */
+
+
+
+/* ----------------------------------------button up page-------------------------------- */
+
+
+.button-up-page {
+    background-image: linear-gradient(to right bottom, #3899da, #54a4da,#79b5dd,white);
+    width: 75%;
+    margin-top: var(--mainMargin);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.button-up-page p:nth-child(1) {
+    font-size: 23px;
+    margin: 10px 0 ;
+}
+.button-up-page p+p {
+    font-size: 23px;
+    margin: 45px 0 25px;
+    padding-left: 10px;
+    
+}
+.button-up-page ul {
+    padding-left: 30px;
+    background-color: white;
+    padding: 10px 40px;
+    font-size: var(--mainFont);
+    line-height: var(--lineHeight);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #de4a00;
+}
+.button-up-video + section ul{
+    list-style: none;
+}
+.button-up-video + section ul li{
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-note-sticky {
+    display: inline-block;
+    margin-right: 10px;
+    color: #053e64;
+}
+.button-up-video +section ul span {
+    color: #053e64;
+    
+    display: inline-block;
+}
+/* --------------------------------video--------------------------- */
+
+/* --------------------------------video--------------------------- */
+/* ------------------------------discussion-group---------------------------- */
+.discussion-group ul {
+    list-style: none;
+    
+    border-radius: 0 0  50px 0;
+    
+}
+
+.discussion-group ul li {
+    margin-left: -10px;
+    color: #000;
+    font-weight: normal;
+}
+.stars {
+    color: rgb(240, 186, 11);
+    margin-bottom: 10px;
+}
+.stars .fa-star:last-child {
+    color: rgb(153, 151, 151);
+}
+.average {
+    color: rgb(105, 103, 103);
+    margin-bottom: 10px;
+}
+.tags {
+    margin-bottom: var(--mainMargin);
+}
+.tags div:first-child {
+    font-size: 23px;
+    margin: 20px 0;
+}
+.tags #clothes-btn,
+.tags #level-btn {
+    background-color: #6b5221;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.tags #clothes-btn:hover,
+.tags #level-btn:hover {
+    background-color: white;
+    color: #6b5221;
+    text-decoration: underline;
+
+}
+/* ------------------------------discussion-group---------------------------- */
+/* ------------------------------comments---------------------------- */
+.button-up-page div:first-child {
+    padding: 10px 0;
+    font-size: var(--mainFont);
+    margin-bottom: 10px;
+}
+.button-up-page div:first-child .fa-user-large {
+    font-size: 30px;
+    /* color: #053e64; */
+    color: #6b5221;
+    margin-right: 20px;
+}
+.button-up-page div:first-child .user {
+    /* color: #6b5221; */
+    color: #053e64;
+}
+.button-up-page div:first-child a {
+    margin-left: 250px;
+}
+.button-up-page.comments ul {
+    list-style: none;
+} 
+.button-up-page.comments ul li:nth-child(1) {
+    /* background-color: #053e64; */
+    width: 790px;
+    margin-left: -20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(156, 155, 155);
+    margin-bottom: 20px;
+}
+.button-up-page.comments ul li:nth-child(2) {
+    width: 790px;
+    border: 15px solid #eee;
+    margin-left: -20px;
+    height: 100px;
+    padding: 20px 10px 10px 20px;
+    margin-bottom: 20px;
+
+}
+/* ------------------------------comments---------------------------- */
+/* -----------------------nav----------------------------- */
+/* .sound-page .nav-help ul li:first-child
+,.sound-page .nav-cours ul li:first-child{
+    font-size: 20px;
+    
+} 
+.sound-page .nav-help,
+.sound-page .nav-cours {
+    border-top-left-radius: 50px;
+}
+.sound-page .nav-cours {
+    position: absolute;
+    top: 500px;
+} */
+/* ----------------------------------------button up page-------------------------------- */
+
+/* -----------------------------------------main-image------------------------------ */
+.main-img {
+    width: 65%;
+    border: 3px solid orangered;
+    border-radius: 20px 0 ;
+    display: block;
+    margin-top: var(--mainMargin);
+}
+/* .main-img:hover {
+    border: 4px solid orangered;
+   box-shadow:  10px 10px 10px #f75302 ;
+} */
+
+/* -----------------------------------------main-image------------------------------ */
+/* ------------------------------------------Reading txt---------------------------- */
+.reading-txt li{
+    margin-bottom: 10px;
+    
+}
+/* ------------------------------------------Reading txt---------------------------- */
+/* ------------------------------------preparation-content------------------------- */
+.preparation-content {
+    background-color: white;
+    width: 96%;
+    height: 850px;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.prepar {
+    width: 93%;
+    background-color: var(--mainColor);
+    margin: 10px auto;
+    padding: 10px;
+    /* height: 98%; */
+    height: auto;
+    
+}
+.prepar h4, .prepar p {
+    padding: 0 10px 10px;
+}
+.prepar span {
+    margin-left: 400px;
+}
+.preparation-content .prepar .btn-answer input {
+    border: none;
+    width: fit-content;
+    padding: 10px;
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.preparation-content .prepar .btn-answer {
+    background-color: white;
+    padding: 10px;
+    width: 92%;
+    margin: auto;
+}
+.preparation-content .preparation-form {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 10px;
+    width: 94%;
+    margin: 20px auto;
+    border: #de4a00 solid 3px;
+
+}
+.preparation-content .preparation-form div,
+.preparation-content .preparation-form div:first-child 
+ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #de4a00;
+
+
+
+}
+
+.preparation-content .preparation-form input {
+    height: 40px;
+    width: 210px;
+    border: #de4a00 solid 3px;
+}
+.submit-btn {
+    display: flex;
+
+}
+.submit-btn .finish-btn,
+.submit-btn .try-btn{
+    padding: 10px;
+background-color: #6ab5e7;
+border: none;
+margin-left: 20px;
+border-radius: 10px;
+width: 150px;
+display: inline-block;
+font-size: 20px;
+padding: 10px;
+height: 40px;
+justify-content: center;
+align-items: center;
+}
+.fa-flag , .fa-repeat {
+ font-size: 20px;
+ color: #053e64;
+ padding-left: 10px;
+ padding-right: 10px;
+ 
+}
+/* ------------------------------------preparation-content------------------------- */
+/* -------------------------------------quiz----------------------------------- */
+.Mainsection {
+ font-size: 16px;
+ width: 94%;
+ /* background-color: #6ab5e7; */
+ margin: auto;
+
+}
+.Mainsection h3 span {
+    margin-left: 4px;
+}
+.Mainsection form 
+{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.Mainsection form div {
+display: flex;
+justify-content: flex-start;
+padding-bottom: 10px;
+
+}
+.preparation-content .Mainsection form div:first-child {
+font-size: 16px;
+padding-bottom: 0;
+}
+.Mainsection form div input {
+    display: inline-block;
+    margin-right: 10px;
+}
+/* ---------------update-------------------- */
+.preparation-group {
+  background-image: linear-gradient(to right bottom, #3899da, #54a4da,#79b5dd,white);
+  border-radius: 10px;
+}
+.preparation-group .preparation-content {
+    background-image: linear-gradient(to right bottom, #3899da, #54a4da,#79b5dd,white)
+
+}   
+.preparation-group .prepar {
+    background-color: white;
+}
+
+
+
+
+.correct { color: green; }
+.incorrect { color: red; }
+
+
+/* إخفاء الزر الأصلي */
+.Mainsection form div input[type="radio"] {
+    display: none;
+}
+
+/* تصميم الزر المخصص */
+input[type="radio"] + label {
+    position: relative;
+    padding-left: 30px; /* مساحة لزر الدائرة */
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* الدائرة نفسها */
+input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* تغيير اللون عند التحديد */
+input[type="radio"]:checked + label:before {
+    background-color: orangered; /* اللون الأخضر */
+    border-color: orangered;
+}
+
+/* دائرة داخلية تظهر عند التحديد */
+input[type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+#timer{
+    color: red;
+}
+#remaining{
+    color: #de4a00;
+}
+
+/* Popup style */
+.popup {
+    display: none; /* إخفاء النافذة بشكل افتراضي */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية شبه شفافة */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* محتوى الـ popup */
+#popup-content {
+    background-image: linear-gradient(rgb(250, 80, 18) ,white);
+    border: #ffffff solid 5px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    text-shadow:1px 2px 2px#de4a00;
+    margin-right: 400px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+/* زر الإغلاق */
+.close-btn {
+    margin-top: 20px;
+    background-color: #ffffff;
+
+    border: dashed 2px #ff4d00;
+    color: #ff4d00;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight:900 ;
+}
+
+/* تغيير لون الزر عند التمرير */
+
+
+
+
+/* -------------------------------------------------------- */
+
+.button-up-page.preparation-group .preparation-content .prepar .btn-answer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button-up-page.preparation-group .preparation-content .prepar .btn-answer input {
+    border: none;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-up-page.preparation-group .preparation-content .prepar .btn-answer input.selected {
+    background-color: #ffc107;
+    border: 2px dashed #007bff;
+    color: black;
+}
+
+.button-up-page.preparation-group .preparation-content .preparation-form {
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-up-page.preparation-group .preparation-content .preparation-form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.button-up-page.preparation-group .preparation-content .preparation-form input {
+    height: 40px;
+    width: 210px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button-up-page.preparation-group .preparation-content .preparation-form input.active {
+    border: 2px dashed #007bff;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+
+}
+
+.button-up-page.preparation-group .preparation-content .submit-btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button-up-page.preparation-group .preparation-content .submit-btn div:hover {
+    background-color: #055f8c;
+    color: white;
+}
+
+#soundBody{
+    background-color: #fff;
+}
+
+
+.Timer{
+    color: #de4a00;
+    padding-left: 190px;
+    font-weight: bold;
+    float: left;
+  }
+  .countdown{
+    color: #de4a00;
+
+    font-weight: bold;
+    margin-left: 400px;
+    
+  }
+
+  #commentsSection {
+    width: 870px;
+    background: #fff;
+    padding: 20px ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto 40px;
+}
+
+#commentForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#commentText {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#addComment {
+    padding: 10px;
+    background: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40%;
+    margin: auto;
+    font-weight: bold;
+}
+
+#addComment:hover {
+   
+    background: #ff4400c7;
+    
+}
+
+#commentsList {
+    margin-top: 10px;
+}
+
+.comment {
+    /* background: #f1f1f1; */
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 10px;
+    position: relative;
+ 
+}
+
+
+.comment .username {
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* background-color: #000; */
+}
+
+.comment .timestamp {
+    margin-left: 10px;
+}
+.comment .username {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.comment .username i {
+    margin-right: 8px; 
+    color: orangered; 
+    font-size: 20px;
+}
+.text {
+
+width: 98%;
+height: 50px;
+padding: 10px;
+margin-top: -20px;
+
+}
+.button-up-page.comment {
+    background-color: white;
+}
+.star {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+  }
+  .active {
+    color: gold;
+  }
+#rating-value{
+ color: #ff4500;
+ font-weight: bolder;
+ padding-top: 10px;
+ margin-left: 10px;
+}
+/* -----------------------------------------footer----------------------------------- */
+footer {
+    width: 100%;
+    height: 200px;
+    background-color:#053e64;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+
+    
+}
+footer .list  ul li a{
+    color: white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+footer .list {
+    margin-left: 10px;
+    width: 15%;
+    list-style: none;
+    padding: 10px;
+}
+footer .list ul {
+    list-style: none;
+}
+footer .list ul i {
+    margin-right: 10px;
+}
+footer .list ul li span{
+    font-weight: bold;
+    color: rgb(216, 48, 1); ;
+    
+}
+footer p {
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+}
+/* -----------------------------------------footer----------------------------------- */
+section.button-up-page.comments{
+    margin-bottom: 50px;
+}
