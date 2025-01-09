@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasons</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Playwrite+AU+QLD+Guides&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/Game.css">
+    <link rel="stylesheet" href="Css/help.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- -------------------------------------Header----------------------------------- -->
+    <div class="container">
+        <header>
+
+            <img class="logo" src="images/LogoImage.png" alt="logo" >
+            <ul>
+                <li id="logOut">LogOut</li>
+
+            </ul>
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listen.html">Listen and Watch</a></li>
+                <li><a href="Read and write.html">Read and Write</a></li>
+                <li><a href="speak.html">Speak and Sound</a></li>
+                <li><a href="fun.html">Fun and Games</a></li>
+
+            </ul>
+        </nav>
+    </div>
+        <!-- -------------------------------------Header----------------------------------- -->
+        <!-- ------------------------------------Sounds Section--------------------------- -->
+        <main class="sound-page">
+            <section class="links">
+                <a href="speak.html"><span>Speak and Sound</span></a> <span> &gt;</span>
+                <a href="sound.html"><span>Sounds</span></a><span> &gt;</span><span>Seasons</span>
+      
+            </section>
+            <!-- ------------------------------------Sounds Section header--------------------------- -->
+
+            <div class="sound-header">
+                <h2>Seasons </h2>
+                <p>Sing and dance to the Seasons Song! Can you pretend to feel the warmth of summer, the breeze of
+                    autumn, the chill of winter, and the bloom of spring?</p>
+            </div>
+            <!-- ------------------------------------Sounds Section header--------------------------- -->
+            <section class="button-up-page">
+                <p>Instructions group
+                <p>
+                <p>Help</p>
+                <ul>
+                    <li>Listen, watch, dance and sing with Sam and Pam.</li>
+                    <li>Play a vocabulary game to practise the words from the song.</li>
+                    <li>Print out the words, activity sheet and flashcards for the song.</li>
+                </ul>
+            </section>
+            <section class="button-up-video">
+                <video controls poster="images/LogoImage.png" width=" 62%" height="450px">
+                    <source src="Videos/Seasons Song.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+            </section>
+
+
+
+            <section class="game">
+                <div class="score">Score <span id="counter">0</span></div>
+                <div class="continar">
+                    <div class="row">
+                        <img src="images/questionMark.jpg" id="img1" data-id="3">
+                        <img src="images/questionMark.jpg" id="img2" data-id="1">
+                    </div>
+                    <div class="row">
+                        <img src="images/questionMark.jpg" id="img3" data-id="2">
+                        <img src="images/questionMark.jpg" id="img4" data-id="4">
+                    </div>
+                    <div class="row">
+                        <img src="images/questionMark.jpg" id="img5" data-id="3">
+                        <img src="images/questionMark.jpg" id="img6" data-id="4">
+                    </div>
+                    <div class="row">
+                        <img src="images/questionMark.jpg" id="img7" data-id="2">
+                        <img src="images/questionMark.jpg" id="img8" data-id="1">
+                    </div>
+                </div>
+                <div id="try-again-btn"><i class="fa-solid fa-repeat"></i> Try again</div>
+                <div id="congrats">
+                    <div class="content">
+                        <span class="text-part-one">Well done!</span>
+                        <span class="text"> scored <span id="correct-counter"></span> out of <span
+                                id="total-counter"></span>
+                        </span>
+                    </div>
+                    <div class="button">
+                        <div id="try-again-btn-congrats">Try again</div>
+                        <div id="close-btn">Close</div>
+                    </div>
+                </div>
+                <div id="popup"></div>
+            </section>
+            <section class="button-up-page">
+                <p>Documents Group
+                <p>
+                <p>Documents</p>
+                <ul>
+                    <li><a href=" "><i class="fa-solid fa-note-sticky"></i>Print the words to the song.</a><span>178.12
+                            KB</span></li>
+                    <li><a href=" "><i class="fa-solid fa-note-sticky"></i>Print an activity for the song.</a><span>342.33
+                            KB</span></li>
+                    <li><a href=" "><i class="fa-solid fa-note-sticky"></i>Print the answers.</a><span>299.58 KB</span></li>
+                    <li><a href=" "><i class="fa-solid fa-note-sticky"></i>flashcards for the song.</a><span>652.47 KB</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="button-up-page discussion-group">
+                <p>Discussion Group
+                <p>
+                <p>Discussion</p>
+                <ul>
+                    <li>
+                        Sing the Seasons Song. Look around you. What signs of each season can you find? Write a comment and tell
+                        us!
+                    </li>
+                </ul>
+            </section>
+        
+        
+        
+            
+            <div>
+            <span class="star" onclick="rate(1)">★</span>
+            <span class="star" onclick="rate(2)">★</span>
+            <span class="star" onclick="rate(3)">★</span>
+            <span class="star" onclick="rate(4)">★</span>
+            <span class="star" onclick="rate(5)">★</span>
+            </div>
+            <p id="rating-value">Your Rating: 0</p>
+            <!-- <section class="button-up-page comments">
+                <div><i class="fa-solid fa-user-large"></i>Submitted by<span class="user"> DJRunningHorse</span>
+                    on Sun, 30/06/2024 - 12:08 <a href="buttonUp.html">Permalink</a></div>
+                <ul>
+                    <li>very aesy</li>
+                    <li><a href="#">Log in</a> or <a href="#">register</a> to post comments</li>
+                </ul>
+            </section>
+            <section class="button-up-page comments">
+                <div><i class="fa-solid fa-user-large"></i>Submitted by<span class="user">LivelyMetal99</span>
+                    on Sat, 21/10/2023 - 09:50 <a href="buttonUp.html">Permalink</a></div>
+                <ul>
+                    <li>I am happy</li>
+                    <li><a href="#">Log in</a> or <a href="#">register</a> to post comments</li>
+                </ul>
+            </section>
+            <section class="button-up-page comments">
+                <div><i class="fa-solid fa-user-large"></i>Submitted by<span class="user">RunningKiteOctopus</span>
+                    on Sun, 09/07/2023 - 14:39 <a href="buttonUp.html">Permalink</a></div>
+                <ul>
+                    <li>I LIKE THAT SONG SO I SING IT 40 TIMES A DAY!!!!!</li>
+                    <li><a href="#">Log in</a> or <a href="#">register</a> to post comments</li>
+                </ul>
+            </section>
+            <section class="button-up-page comments">
+                <div><i class="fa-solid fa-user-large"></i>Submitted by<span class="user"> DJRunningHorse</span>
+                    on Sun, 09/07/2023 - 14:39 <a href="buttonUp.html">Permalink</a></div>
+                <ul>
+                    <li>my coat have buttons</li>
+                    <li><a href="#">Log in</a> or <a href="#">register</a> to post comments</li>
+                </ul>
+            </section> -->
+            <section class="button-up-page comments">
+                <div id="commentsSection">
+                    <form id="commentForm">
+                        <textarea id="commentText" placeholder="Write your comment..." required></textarea>
+                        <button type="button" id="addComment">Add Comment</button>
+                    </form>
+                </div>
+            </section>
+                <div id="commentsList"></div>
+                
+            <nav class="nav-help">
+                <ul>
+                    <li>Help and Support</li>
+                    <li><i class="fa-solid fa-check"></i><a href="#">Support for parent</a></li>
+                    <li><i class="fa-solid fa-check"></i><a href="#">Getting started for kids</a></li>
+                    <li><i class="fa-solid fa-check"></i><a href="#">Houses rules for kids</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-cours">
+                <ul>
+                    <li>Help and Support</li>
+                    <li><i class="fa-solid fa-check"></i><a href="#">Support for parent</a></li>
+                    <li><i class="fa-solid fa-check"></i><a href="#">Getting started for kids</a></li>
+                </ul>
+            </nav>
+
+        </main>
+  
+
+
+
+
+    
+     <!-- -----------------------------------------footer------------------------------------- -->
+
+        <footer>
+            <div class="list">
+                <ul>
+                    <li><a href="listen.html"><span>Listen and watch</span></a></li>
+                    <li><a href="songs.html">Songs</a></li>
+                    <li><a href="shortStories.html">Short stories</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="Read and write.html"><span>Read and write</span></a></li>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="#">Your turn</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="speak.html"><span>Speak and Sound</span> </a></li>
+                    <li><a href="sound.html">Sounds</a></li>
+                    <li><a href="#">Speak</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="fun.html"><span>Fun and Games</span></a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="#">Jokes</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><span>Follow Us</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+
+                </ul>
+            </div>
+            <p class="copyright">&copy; 2025 <span>KidsEn</span> All Right Reserved</p>
+        </footer>
+        <!-- -----------------------------------------footer------------------------------------- -->
+
+        <script src="Script/Game.js"></script>
+        <script src="Script/comment.js"></script>
+<script src="Script/logOut.js"></script>
+
+
+</body>
+
+</html>

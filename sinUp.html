@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Playwrite+AU+QLD+Guides&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/sinUp.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="logo" src="images/LogoImage.png" alt="logo" >
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listen.html">Listen and Watch</a></li>
+                <li><a href="Read and write.html">Read and Write</a></li>
+                <li><a href="speak.html">Speak and Sound</a></li>
+                <li><a href="fun.html">Fun and Games</a></li>
+    
+            </ul>
+        </nav>
+    </div>
+
+    <main id="main">
+        <form class="for" id="signForm" method="post">
+            <section id="form">
+                <div class="div">
+                    <h1 class="create">Create new account</h1>
+                    <div class="login-sinUp">
+                        <ul>
+                            <li><a href="logIn.html">Login</a></li>
+                            <li><a href="sinUp.html">Sign up</a></li>
+                            <li><a href="restPassword.html">Reset your password</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sinup1">
+                    <section class="sec1">
+                        <div class="header">Parent/carer details</div>
+                        <div class="bodyy">
+                            <div class="divForLogin">
+                                <div class="ast">
+                                    <label for="fristName" class="label1">First name</label><p>*</p>
+                                </div>
+                                <br>
+                                <input type="text" id="fristName" name="fristName" required>
+                            </div>
+                            <br>
+
+                            <div class="divForPassword">
+                                <div class="ast">
+                                    <label for="lastName" class="label1">Last name</label><p>*</p>
+                                </div>
+                                <br>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+
+                            <div class="divForPassword">
+                                <div class="ast">
+                                  <label for="residence" class="label1">Place of residence</label><p>*</p>
+                                </div>
+                                
+                                <br>
+                                <input list="residence-options" id="residence" placeholder="Select residence " name="residence" required>
+                                <datalist id="residence-options">
+                                    <option value="Afghanistan">
+                                    <option value="Albania">
+                                    <option value="Algeria">
+                                    <option value="Andorra">
+                                    <option value="Angola">
+                                    <option value="Antigua and Barbuda">
+                                    <option value="Argentina">
+                                    <option value="Armenia">
+                                    <option value="Australia">
+                                    <option value="Austria">
+                                    <option value="Azerbaijan">
+                                    <option value="Bahamas">
+                                    <option value="Bahrain">
+                                    <option value="Bangladesh">
+                                    <option value="Barbados">
+                                    <option value="Belarus">
+                                    <option value="Belgium">
+                                    <option value="Belize">
+                                    <option value="Benin">
+                                    <option value="Bhutan">
+                                    <option value="Bolivia">
+                                    <option value="Bosnia and Herzegovina">
+                                    <option value="Botswana">
+                                    <option value="Brazil">
+                                    <option value="Brunei">
+                                    <option value="Bulgaria">
+                                    <option value="Burkina Faso">
+                                    <option value="Burundi">
+                                    <option value="Cabo Verde">
+                                    <option value="Cambodia">
+                                    <option value="Cameroon">
+                                    <option value="Canada">
+                                    <option value="Central African Republic">
+                                    <option value="Chad">
+                                    <option value="Chile">
+                                    <option value="China">
+                                    <option value="Colombia">
+                                    <option value="Comoros">
+                                    <option value="Congo (Congo-Brazzaville)">
+                                    <option value="Costa Rica">
+                                    <option value="Croatia">
+                                    <option value="Cuba">
+                                    <option value="Cyprus">
+                                    <option value="Czech Republic (Czechia)">
+                                    <option value="Denmark">
+                                    <option value="Djibouti">
+                                    <option value="Dominica">
+                                    <option value="Dominican Republic">
+                                    <option value="Ecuador">
+                                    <option value="Egypt">
+                                    <option value="El Salvador">
+                                    <option value="Equatorial Guinea">
+                                    <option value="Eritrea">
+                                    <option value="Estonia">
+                                    <option value="Eswatini (fmr. 'Swaziland')">
+                                    <option value="Ethiopia">
+                                    <option value="Fiji">
+                                    <option value="Finland">
+                                    <option value="France">
+                                    <option value="Gabon">
+                                    <option value="Gambia">
+                                    <option value="Georgia">
+                                    <option value="Germany">
+                                    <option value="Ghana">
+                                    <option value="Greece">
+                                    <option value="Grenada">
+                                    <option value="Guatemala">
+                                    <option value="Guinea">
+                                    <option value="Guinea-Bissau">
+                                    <option value="Guyana">
+                                    <option value="Haiti">
+                                    <option value="Holy See">
+                                    <option value="Honduras">
+                                    <option value="Hungary">
+                                    <option value="Iceland">
+                                    <option value="India">
+                                    <option value="Indonesia">
+                                    <option value="Iran">
+                                    <option value="Iraq">
+                                    <option value="Ireland">
+                                    <option value="Israel">
+                                    <option value="Italy">
+                                    <option value="Jamaica">
+                                    <option value="Japan">
+                                    <option value="Jordan">
+                                    <option value="Kazakhstan">
+                                    <option value="Kenya">
+                                    <option value="Kiribati">
+                                    <option value="Kuwait">
+                                    <option value="Kyrgyzstan">
+                                    <option value="Laos">
+                                    <option value="Latvia">
+                                    <option value="Lebanon">
+                                    <option value="Lesotho">
+                                    <option value="Liberia">
+                                    <option value="Libya">
+                                    <option value="Liechtenstein">
+                                    <option value="Lithuania">
+                                    <option value="Luxembourg">
+                                    <option value="Madagascar">
+                                    <option value="Malawi">
+                                    <option value="Malaysia">
+                                    <option value="Maldives">
+                                    <option value="Mali">
+                                    <option value="Malta">
+                                    <option value="Marshall Islands">
+                                    <option value="Mauritania">
+                                    <option value="Mauritius">
+                                    <option value="Mexico">
+                                    <option value="Micronesia">
+                                    <option value="Moldova">
+                                    <option value="Monaco">
+                                    <option value="Mongolia">
+                                    <option value="Montenegro">
+                                    <option value="Morocco">
+                                    <option value="Mozambique">
+                                    <option value="Myanmar (formerly Burma)">
+                                    <option value="Namibia">
+                                    <option value="Nauru">
+                                    <option value="Nepal">
+                                    <option value="Netherlands">
+                                    <option value="New Zealand">
+                                    <option value="Nicaragua">
+                                    <option value="Niger">
+                                    <option value="Nigeria">
+                                    <option value="North Korea">
+                                    <option value="North Macedonia (formerly Macedonia)">
+                                    <option value="Norway">
+                                    <option value="Oman">
+                                    <option value="Pakistan">
+                                    <option value="Palau">
+                                    <option value="Palestine State">
+                                    <option value="Panama">
+                                    <option value="Papua New Guinea">
+                                    <option value="Paraguay">
+                                    <option value="Peru">
+                                    <option value="Philippines">
+                                    <option value="Poland">
+                                    <option value="Portugal">
+                                    <option value="Qatar">
+                                    <option value="Romania">
+                                    <option value="Russia">
+                                    <option value="Rwanda">
+                                    <option value="Saint Kitts and Nevis">
+                                    <option value="Saint Lucia">
+                                    <option value="Saint Vincent and the Grenadines">
+                                    <option value="Samoa">
+                                    <option value="San Marino">
+                                    <option value="Sao Tome and Principe">
+                                    <option value="Saudi Arabia">
+                                    <option value="Senegal">
+                                    <option value="Serbia">
+                                    <option value="Seychelles">
+                                    <option value="Sierra Leone">
+                                    <option value="Singapore">
+                                    <option value="Slovakia">
+                                    <option value="Slovenia">
+                                    <option value="Solomon Islands">
+                                    <option value="Somalia">
+                                    <option value="South Africa">
+                                    <option value="South Korea">
+                                    <option value="South Sudan">
+                                    <option value="Spain">
+                                    <option value="Sri Lanka">
+                                    <option value="Sudan">
+                                    <option value="Suriname">
+                                    <option value="Sweden">
+                                    <option value="Switzerland">
+                                    <option value="Syria">
+                                    <option value="Tajikistan">
+                                    <option value="Tanzania">
+                                    <option value="Thailand">
+                                    <option value="Timor-Leste">
+                                    <option value="Togo">
+                                    <option value="Tonga">
+                                    <option value="Trinidad and Tobago">
+                                    <option value="Tunisia">
+                                    <option value="Turkey">
+                                    <option value="Turkmenistan">
+                                    <option value="Tuvalu">
+                                    <option value="Uganda">
+                                    <option value="Ukraine">
+                                    <option value="United Arab Emirates">
+                                    <option value="United Kingdom">
+                                    <option value="United States">
+                                    <option value="Uruguay">
+                                    <option value="Uzbekistan">
+                                    <option value="Vanuatu">
+                                    <option value="Vatican City">
+                                    <option value="Venezuela">
+                                    <option value="Vietnam">
+                                    <option value="Yemen">
+                                    <option value="Zambia">
+                                    <option value="Zimbabwe">
+                                </datalist>
+                              </div>
+                        </div>
+
+                    </section>
+
+                    <section class="sec2">
+                        <div class="check">
+                            <input type="checkbox">
+                        </div>
+                        <p>Please send me the monthly newsletter and updates with free learning tips and resources.</p>
+                    </section>
+                    <section class="sec1">
+                        <div class="header">Add Parent/carer details</div>
+                        <div class="bodyy">
+                            <div class="divForLogin">
+                                <div class="ast">
+                                    <label for="emailAddress" class="label1">Email address</label><p>*</p>
+                                </div>
+                                <br>
+                                <input type="email" id="emailAddress" name="emailAddress" required
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                    title="Enter a valid email address (e.g., example@domain.com)">
+                            </div>
+                            <br>
+                            <div class="divForPassword">
+                                <div class="ast">
+                                    <label for="password" class="label1">Password</label><p>*</p>
+                                </div>
+                                <br>
+                                <input type="password" id="password" name="password" required
+                                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                    title="Password must be at least 8 characters long, and include at least one uppercase letter, one lowercase letter, and one number.">
+                            </div>
+                            <br>
+                            <div class="divForPassword">
+                                <div class="ast">
+                                    <label for="confirmPassword" class="label1">Confirm password</label><p>*</p>
+                                </div>
+                                <br>
+                                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                            </div>
+                            <p class="pm">Passwords match:</p>
+                        </div>
+                        <section class="sec3">
+                            <div class="header">
+                                Terms and Conditions of Use
+                            </div>
+                            <div class="bodyy">
+                                <h1 class="Privacy">Privacy notice</h1>
+                                 <br>
+                                 <p class="pp">The British Council will use the information that you are providing in connection with processing your registration and will use your scores and personal details to issue secure digital credentials. The partner issuing digital credentials is Accredible who have signed an agreement to preserve the privacy and confidentiality of your personal data. The legal basis for processing your information is agreement with our</p>
+                                <br>
+                                <p class="ppp">
+                                    I understand that:
+                                </p>
+                                <ul>
+                                    <li>by submitting my information through the registration form, I am consenting to the British Council collecting and using my information to inform me of its products, events and services, to send me the monthly email study guide and to carry out market research, according to the preferences I select</li>
+                                    <li>I have the right to withdraw my consent at any time by contacting learnenglish@britishcouncil.org. If I exercise this right, my personal information will be permanently deleted from the system as soon as possible. I can also withdraw my consent to share my results with the partner issuing digital credentials at any time by contacting the British Council in the same way</li>
+                                    <li>if I do not provide my consent, the British Council cannot collect my information.</li>
+                                </ul>
+                                <h1 class="Privacy">Data protection</h1>
+                                <p class="pp1">The British Council complies with data protection law in the UK and laws in other countries that meet internationally accepted standards.</p>
+                                <p class="pp2">You have the right to ask for a copy of the information we hold on you, and the right to ask us to correct any inaccuracies in that information. If you have concerns about how we have used your personal information, you also have the right to complain to a privacy regulator.</p>
+                                <p class="pp3">For detailed information, please refer to the privacy section of our website or contact your local British Council office.</p>
+                                <p class="pp4">We will take steps to delete your personal information when it is no longer needed. We will remove the data of users who have not logged in for 12 months and have also not contributed comments or content to the website.</p>
+                                <div class="agree1">
+                                    <div class="check">
+                                        <input type="checkbox" required>
+                                    </div>
+                                    <div class="checkp"> <p>I am aged 18 or over and agree with the terms of use.</p>
+                                    <p class="astt">*</p>
+                                  </div>
+                                </div>
+        
+                                <div class="agree2">
+                                    <div class="check">
+                                        <input type="checkbox" re>
+                                    </div>
+                                    <div class="checkp"> <p>Accept Terms & Conditions of Use</p>
+                                    <p class="astt">*</p>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        <button id="submit" type="submit">Create new account</button>
+                    </section>
+                </div>
+            </section>
+        </form>
+    </main>
+    <footer>
+        
+      <div class="list">
+        <ul>
+            <li><a href="#"><span>Listen and watch</span></a></li>
+            <li><a href="#">Songs</a></li>
+            <li><a href="#">stories</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="#"><span>Read and write</span></a></li>
+            <li><a href="#">Magazine</a></li>
+            <li><a href="#">Your turn</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="#"><span>Speak and Sound</span> </a></li>
+            <li><a href="#">Sounds</a></li>
+            <li><a href="#">Speak</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="#"><span>Fun and Games</span></a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Jokes</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="#"><span>Follow Us</span></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+
+        </ul>
+    </div>
+    <p class="copyright">&copy; 2025 <span>KidsEn</span> All Right Reserved</p>
+ </footer>
+    <!-- <script>
+        const form = document.getElementById('signForm');
+        const firstName = document.getElementById('fristName');
+        const lastName = document.getElementById('lastName');
+        const residence=document.getElementById('residence')
+        const email = document.getElementById('emailAddress');
+        const password = document.getElementById('password');
+        const confirmPassword = document.getElementById('confirmPassword');
+
+        // On form submit, store values in localStorage
+        form.addEventListener('submit', function(event) {
+            // Check if passwords match
+            if (password.value !== confirmPassword.value) {
+                alert('Passwords do not match!');
+                event.preventDefault();
+                return;
+            }
+
+            // Validate email format
+            const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+            if (!emailPattern.test(email.value)) {
+                alert('Invalid email format.');
+                event.preventDefault();
+                return;
+            }
+
+            // Validate password format
+            const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+            if (!passwordPattern.test(password.value)) {
+                alert('Password must be at least 8 characters long, and include at least one uppercase letter, one lowercase letter, and one number.');
+                event.preventDefault();
+                return;
+            }
+
+            // Save all input fields to localStorage
+            localStorage.setItem('fristName', firstName.value);
+            localStorage.setItem('lastName', lastName.value);
+            localStorage.setItem('residence', residence.value);
+            localStorage.setItem('email', email.value);
+            localStorage.setItem('password', password.value);
+            localStorage.setItem('confirmPassword', confirmPassword.value);
+
+            alert('Account created successfully!');
+        });
+
+        
+    </script> -->
+
+    <script src="Script/signup.js"></script>
+<script src="Script/logOut.js"></script>
+
+</body>
+</html>
