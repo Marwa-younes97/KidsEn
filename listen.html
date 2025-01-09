@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListenAndWatch</title>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Playwrite+AU+QLD+Guides&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/listen.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (!sessionStorage.getItem("isLoggedIn")) {
+                // alert("You need to log in to access this page.");
+                window.location.href = "logIn.html"; // Redirect to login page
+            }
+        });
+    </script>
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img class="logo" src="images/LogoImage.png" alt="logo" >
+        <ul>
+               
+           <li id="logOut">  LogOut</li>
+       </ul>
+       
+        </header>
+        <nav>
+            <ul>
+                <li class="head"><a href="index.html" target="_self" class="nav-link">Home</a></li>
+                <li class="head"><a href="listen.html" class="nav-link">Listen and Watch</a></li>
+                <li class="head"><a href="Read and write.html" class="nav-link">Read and Write</a></li>
+                <li class="head"><a href="speak.html" class="nav-link">Speak and Sound</a></li>
+                <li class="head"><a href="fun.html" class="nav-link">Fun and Games</a></li>
+                
+            </ul>
+         </nav>
+        <main>
+             <section id="ReadSection">
+                <div>
+                    <h2>Listen and watch</h2>
+                   <p> Learn to sing songs in English and watch fun stories and videos!</p>
+                </div>
+           </div>
+           <section class="PargraphSection">
+            <p>Do you like listening to songs and watching stories and videos in English? In this section you can learn to sing songs in English and watch fun stories and videos. You can also play games, print activities and post comments.</p>
+            
+            
+           </section>
+           <div class="sections-container">
+           <section id="MagazineSEC">
+            <div class="MagazineSection">
+                <img src="images/1000_F_182487698_ITqeQTedtjfIqpwa0udWH6pWQ8Ix4nEC-removebg-preview.png"alt="Image Not Found"class="Maimg">
+                <div class="Magazine"></div>
+            </div>
+           </section>
+           <section class="MagazinePargraph">
+            <a href="songs.html">Songs</a>
+            <p>Do you like listening to songs in English? Singing songs is a great way to get better at speaking English and we have lots of great songs for you to enjoy. Listen to songs, print activities and post comments!</p>
+
+           </section>
+        </div>
+
+        <div class="sections-container">
+            <section id="Yourturn">
+             <div class="YourturnSection">
+                 <img src="images/pngtree-children-watching-television-in-a-room-png-image_12711052-removebg-preview.png"alt="Image Not Found"class="Yourturnimg">
+                 <div class="Yourturn"></div>
+             </div>
+            </section>
+            <section class="YourturnPargraph">
+             <a href="shortStories.html">Short stories</a>
+             <p>Do you like listening to and reading stories? Reading stories is a great way to improve your vocabulary and we have lots of great stories for you to watch. Watch stories, print activities and post comments!</p>
+
+            </section>
+         </div>
+         <!-- <a href="index.html" style="color: black;">Back to home</a> -->
+           </main>
+
+
+
+
+
+           <footer>
+            <div class="list">
+                <ul>
+                    <li><a href="listen.html"><span>Listen and watch</span></a></li>
+                    <li><a href="songs.html">Songs</a></li>
+                    <li><a href="shortStories.html"> Short stories</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="Read and write.html"><span>Read and write</span></a></li>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="#">Your turn</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="speak.html"><span>Speak and Sound</span> </a></li>
+                    <li><a href="sound.html">Sounds</a></li>
+                    <li><a href="#">Speak</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="fun.html"><span>Fun and Games</span></a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="#">Jokes</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><span>Follow Us</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+          
+                </ul>
+            </div>
+            <p class="copyright">&copy; 2025 <span>KidsEn</span> All Right Reserved</p>
+          </footer>
+  <script src="Script/Navigation.js" defer></script>
+  <script src="Script/logOut.js"></script>
+
+    
+</body>
+
+</html>

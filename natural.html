@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural game</title>
+    <link rel="stylesheet" href="Css/family.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="Animals.html">Animals</a>
+        <a href="natural.html">Natural</a>
+        <a href="family.html">Family</a>
+    </div>
+
+
+    <div class="header">Match the Word with the Picture</div>
+
+    <div class="main">
+        <div class="word" id="word">Sea</div>
+        <div class="continer">
+            <div class="line">
+                <img src="gameImages/sea.png" alt="Sea" data-name="Sea" class="draggable" />
+                <img src="gameImages/mountain.png" alt="Mountain" data-name="Mountain" class="draggable" />
+                <img src="gameImages/river.png" alt="River" data-name="River" class="draggable" />
+                <img src="gameImages/forest.png" alt="Forest" data-name="Forest" class="draggable" />
+                <img src="gameImages/desert.png" alt="Desert" data-name="Desert" class="draggable" />
+            </div>
+
+            <div class="line">
+                <img src="gameImages/waterfall.png" alt="Waterfall" data-name="Waterfall" class="draggable" />
+                <img src="gameImages/lake.png" alt="Lake" data-name="Lake" class="draggable" />
+                <img src="gameImages/volcano.png" alt="Volcano" data-name="Volcano" class="draggable" />
+                <img src="gameImages/cave.png" alt="Cave" data-name="Cave" class="draggable" />
+                <img src="gameImages/island.png" alt="Island" data-name="Island" class="draggable" />
+            </div>
+
+            <div class="line">
+                <img src="gameImages/glacier.png" alt="Glacier" data-name="Glacier" class="draggable" />
+                <img src="gameImages/beach.png" alt="Beach" data-name="Beach" class="draggable" />
+                <img src="gameImages/cliff.png" alt="Cliff" data-name="Cliff" class="draggable" />
+                <img src="gameImages/valley.png" alt="Valley" data-name="Valley" class="draggable" />
+                <img src="gameImages/meadow.png" alt="Meadow" data-name="Meadow" class="draggable" />
+            </div>
+        </div>
+
+        <div id="feedback"></div>
+    </div>
+
+    <audio id="seccees_audio" src="good.mp3"></audio>
+    <audio id="incorrect_audio" src="oops.mp3"></audio>
+    
+    <script src="Script/animalGame.js"></script>
+    <script src="Script/natural.js">
+       
+    </script>
+</body>
+</html>
