@@ -369,7 +369,7 @@ text.style.alignItems="center"
 text.style.position="fixed"
 text.style.border=" 2px dashed white"
 text.style.top="375px"
-text.style.left="1050px"
+text.style.left="1300px"
 text.style.paddingTop="22px"
 
 
