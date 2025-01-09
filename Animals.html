@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals game</title>
+   
+    <link rel="stylesheet" href="Css/Animals.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="Animals.html">Animals</a>
+        <a href="natural.html">Natural</a>
+        <a href="family.html">Family</a>
+    </div>
+
+    <div class="header">Match the Word with the Picture</div>
+    <div class="main">
+        
+        <div class="word" id="word">Cat</div>
+        <div class="continer">
+            <div class="line">
+                <img src="gameImages/dog.png" alt="Dog" data-name="Dog" class="draggable" />
+                <img src="gameImages/cat.png" alt="Cat" data-name="Cat" class="draggable" />
+                <img src="gameImages/fish.png" alt="Fish" data-name="Fish" class="draggable" />
+                <img src="gameImages/elephent.png" alt="Elephant" data-name="Elephant" class="draggable" />
+                <img src="gameImages/lion.png" alt="Lion" data-name="Lion" class="draggable" />
+            </div>
+
+            <div class="line">
+                <img src="gameImages/tiger.png" alt="Tiger" data-name="Tiger" class="draggable" />
+                <img src="gameImages/koala.png" alt="Koala" data-name="Koala" class="draggable" />
+                <img src="gameImages/giraffe.png" alt="Giraffe" data-name="Giraffe" class="draggable" />
+                <img src="gameImages/panda.png" alt="Panda" data-name="Panda" class="draggable" />
+                <img src="gameImages/zabra.png" alt="Zebra" data-name="Zebra" class="draggable" />
+            </div>
+
+            <div class="line">
+                <img src="gameImages/polar_pear.png" alt="Bear" data-name="Bear" class="draggable" />
+                <img src="gameImages/wolf.png" alt="Wolf" data-name="Wolf" class="draggable" />
+                <img src="gameImages/civet.png" alt="Civet" data-name="Civet" class="draggable" />
+                <img src="gameImages/alligator.png" alt="Alligator" data-name="Alligator" class="draggable" />
+                <img src="gameImages/flamingo.png" alt="Flamingo" data-name="Flamingo" class="draggable" />
+            </div>
+        </div>
+
+        
+        <div id="feedback" ></div>
+    </div>
+   <audio id="seccees_audio" src="good.mp3"></audio>
+   <audio id="incorrect_audio" src="oops.mp3"></audio>
+
+   <script src="Script/animalGame.js"></script>
+    <script src="Script/animals.js"> </script>
+      <script src="Script/logOut.js"></script>
+
+      
+
+   
+    
+</body>
+</html>
