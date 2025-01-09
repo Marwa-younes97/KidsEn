@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bear and the Bee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Playwrite+AU+QLD+Guides&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/letterA.css">
+    <link rel="stylesheet" href="Css/quizStyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="images/LogoImage.png" alt="logo" >
+
+       <ul>
+              <li id="logOut">LogOut</li>
+       </ul>
+       
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listen.html">Listen and Watch</a></li>
+                <li><a href="Read and write.html">Read and Write</a></li>
+                <li><a href="speak.html">Speak and Sound</a></li>
+                <li><a href="fun.html">Fun and Games</a></li>
+            </ul>
+         </nav>
+    </div>
+  
+    <main>
+        <section class="links">
+            <a href="listen.html"><span>Listen and watch</span></a> <span> &gt;</span>
+            <a href="shortStories.html"><span>Short Stories</span></a> <span> &gt;</span>
+            <span>The Bear and the Bee</span> 
+        </section>
+
+       <section class="title">
+        <h2><span>Hello to The Bear and the Bee Story</span></h2>
+        <p>Listen to a story about The Bear and the Bee .</p>
+       </section>
+
+
+       <section class="instruction">
+        <h3><span>Instructions group</span></h3>
+        <span>Help</span>
+        <p> listen to this story and do the activities.</p>
+       </section>
+        
+     
+      <section class="video">
+       <video src="Videos/Bear and Bee.mp4" controls class="videoStory" poster="images/LogoImage.png"  width=" 62%" height="450px"></video>
+      </section>
+
+      <section class="quiz-container preparation">
+        <h1>The Bear and the Bee Quiz</h1>
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. What is the main idea of the video?</p>
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    How to manage time effectively.
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    The importance of a growth mindset.
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="c">
+                    The difference between success and failure.
+                </label>
+                <!-- <label>
+                    <input type="radio" name="q1" value="d">
+                    The difference between success and failure.
+                </label> -->
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. According to the video, a growth mindset means:
+                </p>
+                <label>
+                    <input type="radio" name="q2" value="a">
+                    Believing your abilities and intelligence are fixed.
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    Avoiding challenges to stay in your comfort zone.
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    Embracing challenges as opportunities to learn and grow.    
+                </label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. What is one example of a growth mindset given in the video?</p>
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    Avoiding tasks that seem difficult.
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    Viewing failures as learning opportunities.
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    Comparing yourself to others constantly.
+                </label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. What is the opposite of a growth mindset?</p>
+                <label>
+                    <input type="radio" name="q4" value="a">
+                    Fixed mindset.
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="b">
+                    Open mindset.
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="c">
+                    Positive mindset.
+                </label>
+            </div>
+             <!-- Question 5 -->
+             <div class="question">
+                <p>5. Which of the following statements reflects a growth mindset?</p>
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    "I can't do this, so I won't even try."
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    "I don't know how to do this yet, but I can learn."
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    "I'm not talented, so there's no point in trying."
+                </label>
+            </div>
+
+            <button type="button" id="submitBtn">Submit</button>
+        </form>
+        <p id="result"></p>
+    </section>
+
+
+ <section class="document-group">
+    <h3><span>Documents group</span></h3>
+    <span>Documents</span>
+      <div>
+        <i class="fa-solid fa-file"></i> <a href="">Print the words to the story</a><br>
+        <i class="fa-solid fa-file"></i> <a href="">Print an activity for the story</a><br>
+        <i class="fa-solid fa-file"></i> <a href="">Print the answers</a><br>
+      </div>
+
+ </section>
+ <section class="discussion-group">
+    <h3><span>Discussion group</span></h3>
+    <span>Discussion</span>
+      <div>
+        Have you got a favourite teddy bear? What's their name? What do they look like?
+      </div>
+
+ </section>
+ <img src="images/songs.png"class='mainImage'>
+
+
+ <div class="the-last"></div>
+
+
+
+
+    </main>
+
+
+
+
+       <!-- -----------------------------------------footer------------------------------------- -->
+
+<footer>
+    <div class="list">
+        <ul>
+            <li><a href="listen.html"><span>Listen and watch</span></a></li>
+            <li><a href="songs.html">Songs</a></li>
+            <li><a href="shortStories.html"> Short stories</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="Read and write.html"><span>Read and write</span></a></li>
+            <li><a href="#">Magazine</a></li>
+            <li><a href="#">Your turn</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="speak.html"><span>Speak and Sound</span> </a></li>
+            <li><a href="#">Sounds</a></li>
+            <li><a href="#">Speak</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="fun.html"><span>Fun and Games</span></a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Jokes</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="#"><span>Follow Us</span></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+  
+        </ul>
+    </div>
+    <p class="copyright">&copy; 2025 <span>KidsEn</span> All Right Reserved</p>
+  </footer>
+  <script src="Script/quizScript.js"></script>
+  <script src="Script/bearQuiz.js"></script>
+<script src="Script/logOut.js"></script>
+
+</body>
+</html>
