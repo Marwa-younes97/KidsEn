@@ -10,9 +10,13 @@ is a fun and interactive project designed to help kids aged 4-12 learn English i
 HTML, CSS, JavaScript
 # Team Members
 Reham Salah
+
 Amira Hashim
+
 Omnia Farwize
+
 Bedor Farghal
+
 Marwa Ismail
 # Note
 # The project is not responsive.
