@@ -15,7 +15,7 @@ Reham Salah
 
 Amira Hashim
 
-Omnia Farwize
+Omnia Farwiz
 
 Bedor Farghal
 
